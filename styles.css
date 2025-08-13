@@ -1,5 +1,5 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     background-color: hsla(0, 0%, 13%, 0.905);
@@ -29,4 +29,28 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+
+#error, #result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#tipPercentage, #billAmount {
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(63, 197, 90);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
